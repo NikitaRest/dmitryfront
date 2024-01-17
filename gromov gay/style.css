@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(90deg, rgba(206,59,246,1) 0%, rgba(85,34,194,1) 50%, rgba(196,0,255,1) 100%);
+    display: flex;
+    justify-content: center;
+     
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.main {
+    background: #242424;
+    width: 700px;
+    height: 500px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.img_dima {
+    margin-top: 20px;
+    width: 230px;
+    height: 230px;
+   border-radius: 50%;
+   border: 2px solid #fff;
+}
+.invite {
+    margin-top: 10px;
+    background: #4d4d4d;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.invite:hover {
+    background:rgba(206,59,246,1) ;
+    transition: 0.3s;
+    color: #242424;
+}
+.scr_text {
+    color: #b6b6b6;
+    font-size: 15px;
+    font-weight: 300;
+}
+.input_za {
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid rgba(206,59,246,1);
+}
